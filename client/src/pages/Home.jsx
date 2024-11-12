@@ -135,13 +135,12 @@ function Home() {
           every occasion, crafted with care and exceptional attention to detail.
         </p>
         <Link
-  to="/about"
-  className="group inline-block px-6 py-3 bg-blue-600 text-white font-medium text-lg rounded-full shadow-lg transform transition duration-300 ease-out hover:bg-yellow-500 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 relative overflow-hidden"
->
-  <span className="absolute inset-0 bg-yellow-500 transform -translate-x-full transition-all duration-300 ease-in-out group-hover:translate-x-0"></span>
-  <span className="relative z-10">Learn More About Us</span>
-</Link>
-
+          to="/about"
+          className="group inline-block px-6 py-3 bg-blue-600 text-white font-medium text-lg rounded-full shadow-lg transform transition duration-300 ease-out hover:bg-yellow-500 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 relative overflow-hidden"
+        >
+          <span className="absolute inset-0 bg-yellow-500 transform -translate-x-full transition-all duration-300 ease-in-out group-hover:translate-x-0"></span>
+          <span className="relative z-10">Learn More About Us</span>
+        </Link>
       </section>
 
       {/* CTA Section - Newsletter */}
